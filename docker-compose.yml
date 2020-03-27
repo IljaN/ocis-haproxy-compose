@@ -12,6 +12,8 @@ services:
       - ./certs:/user/local/etc/hacerts
   ocis:
     image: owncloud/ocis:latest
+    volumes:
+    - ./identifier-registration.yaml:/config/identifier-registration.yaml
     environment:
       - OCIS_LOG_LEVEL=debug
 
