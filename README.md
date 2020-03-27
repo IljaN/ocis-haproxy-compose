@@ -27,3 +27,12 @@ docker-compose up
 
 - https://localhost:9200 => Entrypoint
 - https://localhost:8404/stats => HAProxy Stats
+
+### Credentials
+```
+einstein:relativity
+marie:radioactivity
+```
+
+### Docs
+https://owncloud.github.io/
